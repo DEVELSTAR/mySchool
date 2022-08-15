@@ -3,48 +3,58 @@ body{
     padding: 0;
     font-family: Arial;
 }
-.text{
+.tetext{
     text-align: center;
     height: 100px;
     background-color: #262626;
 }
-.text h1{
+.tetext h1{
     margin: 0;
     line-height: 100px;
     color: #fff;
     font-size: 48px;
 }
-ul{
+.teh1{
+    text-decoration: none;
+}
+.tesmall{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.temenu{
     margin: 0;
     padding: 0;
     background: #f00;
     color: #fff;
     display: flex;
 }
-ul li{
+.temenu ul li{
     list-style: none;
+    text-decoration: none;
 }
-ul li a{
+.teli a{
     text-decoration: none;
     color: #fff;
     padding: 20px;
     display: block;
 }
-section{
-    height: 300px;
+.temenu li{
+   text-decoration: none;
+   display: block;
 }
-.sticky{
+
+/*section{
+    height: 300px;
+}*/
+/*.sticky{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
-/* .menu{
+*//* .menu{
     position: fixed;
     top: 10;
     left: 0;
     width: 100%;
 } */
-h1 small{
-    font-size: 20px;
-}

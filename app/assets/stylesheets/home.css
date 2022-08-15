@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 .main{
-	/*border: 2px solid red;*/
+	/*border: 20px solid red;*/
 	height: 100vh;
 	background: rgb(63,94,251);
 	background: radial-gradient(circle, rgba(63,94,251,1) 27%, rgba(252,70,107,1) 100%);
@@ -53,30 +53,37 @@ img:hover{
 	color: black;
 }
 .homebtn{
+	/*border: 2px solid red;*/
+	margin-top: 5%;
+	margin-left: 25%;
 	display: flex;
-	text-align: center;
+    justify-content: space-between;	
+    width: 50%;
 }
 .homebtns{
-	/*border: 2px solid yellowgreen;*/
-	background-color: yellowgreen;
-	padding: 10px;
+	color: black;
 	border-radius: 10px;
-	margin-left: 10%;
-	margin-top: 10%;
+	font-size: 40px;
+	padding: 10px;
+	text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .homebtns:hover{
-	color: red;
+	background-color: green;
+	color: white;
 	transition: color 0.5s;
 }
 .homebtnt{
-	/*border: 2px solid yellowgreen;*/
-	background-color: greenyellow;
-	padding: 10px;
+	color: black;
 	border-radius: 10px;
-	margin-left: 40%;
-	margin-top: 10%;
+	font-size: 40px;
+	padding: 10px;	
+	text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /*margin-left: 250%;*/
 }
 .homebtnt:hover{
-	color: red;
+	background-color: green;
+	color: white;
 	transition: color 0.5s;
 }

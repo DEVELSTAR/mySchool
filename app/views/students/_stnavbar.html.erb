@@ -1,0 +1,37 @@
+<!-- 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+<script type="text/javascript">
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.menu').addClass("sticky");
+        }
+        else {
+            $('.menu').removeClass("sticky");
+
+        }
+    })
+</script>
+ -->
+    
+<div class="sttext">
+    <h1><%= link_to "ANAM ASHARA", students_index_path, class: "sth1" %><small class="stsmall">(Student)</small></h1>
+</div>
+<ul class="stmenu">
+    <li class="stli"><a href="">ATTENDANCE</a></li>
+    <li class="stli"><a href="">VERTUAL CLASSROOM</a></li>
+    <li class="stli"><a href="">HOMEWORK</a></li>    
+    <li class="stli"><a href="">FEE</a></li>
+    <li class="stli"><%= link_to "UPDATES", updates_path %></li>
+    <li class="stli"><a href="">EVENTS</a></li>
+    <li class="stli"><a href="">SYLLABUS</a></li>
+    <li class="stli"><a href="">TIMETABLE</a></li>
+    <li class="stli"><a href="">STUDENTS DETAILS</a></li>
+    <li class="stli"><a href="">LEAVE</a></li>
+    <li class="stli"><a href="">RESULT</a></li>
+</ul>
+<!-- <section></section>
+<section></section>
+<section></section> -->
