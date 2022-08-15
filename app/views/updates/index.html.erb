@@ -1,0 +1,11 @@
+<%= render "students/navbar" %>
+<h1>Updates</h1>
+
+<ul>
+  <% @updates.each do |update| %>
+    <li>
+      <%= update.title %>
+      <%= update.body %>
+    </li>
+  <% end %>
+</ul>     
