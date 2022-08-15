@@ -1,0 +1,9 @@
+.index-link{
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+}
+.index-link:hover{
+	color: red;
+	transition: color 0.5s;
+}
