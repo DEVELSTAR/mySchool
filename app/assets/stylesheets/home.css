@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main{
+	/*border: 2px solid red;*/
+	height: 100vh;
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 27%, rgba(252,70,107,1) 100%);
+}
+.homecont{
+	/*border: 2px solid black;*/
+	padding-top: 100px;
+	margin: auto;
+    width: 50%;
+    text-align: center;
+}
+img{
+	height: 200px;
+}
+img:hover{
+	height: 250px;
+	transition: height 0.5s;
+}
+.homeimg{
+}
+.hometext h1{
+	/*border: 2px solid red;*/
+	margin-bottom: 10px;
+	display: block;
+	font-size: 90px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 3px 3px 4px rgba(255, 255, 255, 0.72);
+}
+.hometext h1:hover{
+	font-size: 100px;
+	transition: font 0.5s;
+}
+.hometext p{
+	font-size: 40px;
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.hometext p:hover{
+	color: greenyellow;
+	transition: color 1s;
+    /*text-shadow: 3px 3px 4px red;*/
+}
+.homehr1{
+	color: black;
+}
+.homehr1:hover{
+	background-color: black;
+}
+.homebtn{
+	display: flex;
+	text-align: center;
+}
+.homebtns{
+	/*border: 2px solid yellowgreen;*/
+	background-color: yellowgreen;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.homebtns:hover{
+	color: red;
+	transition: color 0.5s;
+}
+.homebtnt{
+	/*border: 2px solid yellowgreen;*/
+	background-color: greenyellow;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+.homebtnt:hover{
+	color: red;
+	transition: color 0.5s;
+}
