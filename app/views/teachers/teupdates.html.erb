@@ -1,0 +1,19 @@
+<%= render "teachers/tenavbar" %>
+<div class="stupmain">
+  <div class="stupform">
+     <h1><%= link_to "create new", new_update_path, class:"stupformlink" %></h1>
+  </div>
+
+  <div class="stupcont">
+    <h1>Updates</h1><br>
+    <ul>
+      <% @updates.each do |update| %>
+        <li>
+          <strong><%= update.title %></strong><br>
+          <%= update.body %>
+        </li><br><br>
+      <% end %>
+    </ul>
+  </div>
+
+</div>    
