@@ -1,1 +1,6 @@
 <%= render "teachers/tenavbar" %>
+ <% @students.each do |student| %>
+    <%= student.name %>
+    <%= student.roll_no %>
+    <%= student.my_class %>
+<% end %>
