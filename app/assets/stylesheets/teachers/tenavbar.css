@@ -19,7 +19,8 @@ body{
 }
 .tesmall{
     font-size: 20px;
-    margin-left: 10px;
+    text-decoration: none;
+    color: white;
 }
 .temenu{
     margin: 0;
