@@ -1,11 +1,14 @@
 <%= render "students/stnavbar" %>
-<h1>Updates</h1>
-
-<ul>
-  <% @updates.each do |update| %>
-    <li>
-      <%= update.title %>
-      <%= update.body %>
-    </li>
-  <% end %>
-</ul>    
+<div class="stupmain">
+  <h1>Updates</h1>
+  <div class="stupcont">
+    <ul>
+      <% @updates.each do |update| %>
+        <li>
+          <strong><%= update.title %></strong><br>
+          <%= update.body %><hr class="stuphr">
+        </li><br><br>
+      <% end %>
+    </ul>  
+  </div>  
+</div>

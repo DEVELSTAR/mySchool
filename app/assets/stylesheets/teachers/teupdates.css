@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.stupmain{
+.teupmain{
 	/*border: 10px solid red;*/
 	display: flex;
 	margin-top: 20px;
@@ -11,14 +11,14 @@
 .nav{
 	border: 5px solid yellow;
 }
-.stupform{
+.teupform{
 	border-right: 5px solid black;
 	width: 30%;
 }
-.stupform h1{
+.teupform h1{
 	margin-top: 20%;
 }
-.stupformlink{
+.teupformlink{
 	border-radius: 8px;
 	color: black;
 	background-color: gray;
@@ -27,18 +27,24 @@
 	font-size: 40px;
 	text-decoration: none;
 }
-.stupformlink:hover{
+.teupformlink:hover{
 	color: white;
 	background-color: green;
 	transition-duration: 0.4;
 }
-.stupcont{
+.teupcont{
 	/*border: 5px solid blue;*/
 	width: 60%;
 	float: right;
 	margin-left: 30px;
 	padding: 20px;
 }
-.stupcont li{
+.teupcont h1{
+	margin-bottom: 10px;
+}
+.teupcont li{
 	list-style: none;
+}
+.teuphr{
+	margin-top: 8px;
 }
