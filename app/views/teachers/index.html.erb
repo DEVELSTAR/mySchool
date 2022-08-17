@@ -1,6 +1,19 @@
-<%= render "teachers/tenavbar" %>
- <% @students.each do |student| %>
-    <%= student.name %>
-    <%= student.roll_no %>
-    <%= student.my_class %>
-<% end %>
+<div class="temainind">
+ <%= render "teachers/tenavbar" %>
+   <div class="tecontainer">
+      <div class="row row-cols-5 row-cols-md-5 g-4">   
+         <% @students.each do |student| %>
+            <div class="col">
+               <div class="card text-bg-light mb-3" style="width: 20rem;">
+                  <img src="https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                  <div class="card-body">
+                   <h4 class="card-title"><strong>Name: </strong><%= student.name %></h4>
+                   <h5 class="card-text"><strong>Roll no.: </strong><%= student.roll_no %></h5>
+                   <h5 class="card-text"><strong>Class: </strong><%= student.my_class %>th</h5>
+                  </div>
+               </div>
+            </div>
+         <% end %>
+      </div>
+   </div>
+</div>
