@@ -1,18 +1,20 @@
-<h1>New updates</h1>
+<%= render "teachers/tenavbar" %>
+<div class="upnewcont">
+	<h1 class="mb-4">New updates</h1>
+	<%= form_with model: @update do |form| %>
 
-<%= form_with model: @update do |form| %>
+		<div class="field form-group mb-4">
+			<%= form.label :title %><br>
+			<%= form.text_field :title, class:"form-control",placeholder:"Title"  %>
+		</div>
 
-	<div>
-		<%= form.label :title %><br>
-		<%= form.text_field :title %>
-	</div>
-
-	<div>
-		<%= form.label :body %><br>
-		<%= form.text_area :body %>
-	</div>
-	<br>
-	<div>
-		<%= form.submit %>
-	</div>
-<% end %>
+		<div class="field form-group mb-2">
+			<%= form.label :body %><br>
+			<%= form.text_area :body, class:"form-control",placeholder:"Body"  %>
+		</div>
+		<br>
+		<div class="actions">
+			<%= form.submit class:'btn btn-secondary'  %>
+		</div>
+	<% end %>
+</div>

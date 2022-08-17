@@ -1,0 +1,27 @@
+<%= render "teachers/tenavbar" %>
+<div class="stnewcont">
+  <h1 class="mb-4">New student</h1>
+  <%= form_with model: @student do |form| %>
+
+    <div class="field form-group mb-4">
+      <%= form.label :name %><br>
+      <%= form.text_field :name, class:"form-control",placeholder:"Name" %>
+    </div>
+
+    <div class="field form-group mb-2">
+      <%= form.label :roll_no %><br>
+      <%= form.text_field :roll_no, class:"form-control",placeholder:"Roll no."  %>
+    </div>
+    <br>
+
+    <div class="field form-group mb-3">
+      <%= form.label :my_class %><br>
+      <%= form.text_field :my_class, class:"form-control",placeholder:"Class"  %>
+    </div>
+    <br>
+
+    <div class="actions">
+      <%= form.submit class:'btn btn-secondary' %>
+    </div>
+  <% end %>
+</div>
